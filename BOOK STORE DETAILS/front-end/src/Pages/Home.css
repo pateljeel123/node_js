@@ -1,0 +1,43 @@
+/* Home.css */
+*{
+    color: #000;
+    
+}
+
+.hero {
+    background-image: url('hero-background.jpg');
+    padding: 60px;
+    text-align: center;
+    color: #000; /* Set text color to black */
+  }
+  
+  .hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #000; /* Set text color to black */
+  }
+  
+  .explore-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .about-store, .literary-highlights {
+    padding: 40px;
+    text-align: center;
+    color: #000; /* Set text color to black */
+  }
+  
+  .learn-more-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+  }
+  

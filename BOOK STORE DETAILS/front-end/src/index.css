@@ -1,0 +1,110 @@
+/* Books.css */
+
+/* General container styling */
+.container {
+  background-color: #222244; /* Dark background for contrast */
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+/* Title and Header */
+h3,
+h1 {
+  color: #f5f5f5; /* Light text color */
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+/* Button styling */
+button {
+  color: #fff;
+  margin: 5px;
+}
+
+.btn-dark {
+  background-color: #007bff; /* Blue button */
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Book cards styling */
+.book-card {
+  background-color: #15162C;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+.book-card img {
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.book-card h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.book-card p {
+  font-size: 1rem;
+  color: #c9c9c9;
+}
+
+/* Buttons within book cards */
+.book-card .btn-outline-primary {
+  border-color: #007bff;
+  color: #007bff;
+  margin: 5px;
+}
+
+.book-card .btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.book-card .btn-outline-danger {
+  border-color: #dc3545;
+  color: #dc3545;
+  margin: 5px;
+}
+
+.book-card .btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+/* Modal styling */
+.modal-header,
+.modal-footer {
+  background-color: #444;
+  color: #f5f5f5;
+}
+
+.modal-title {
+  font-weight: bold;
+  color: #f5f5f5;
+}
+
+.modal-body input {
+  background-color: #2e2e3e;
+  border: 1px solid #555;
+  color: #f5f5f5;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.modal-footer .btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
