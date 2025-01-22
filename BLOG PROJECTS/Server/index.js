@@ -14,7 +14,7 @@ app.use("/",Expressrouter)
 app.listen(process.env.Port||3000,()=>{
     try {
         connection
-          console.log("Server running ")
+          console.log("Server running on port 3000")
     } catch (error) {
         console.log(error)
     }

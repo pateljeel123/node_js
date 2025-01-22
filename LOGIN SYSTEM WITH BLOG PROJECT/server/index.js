@@ -20,7 +20,7 @@ dotenv.config()
 app.listen(process.env.port  ,()=>{
     try {
       connection
-        console.log("http://localhost:8080/")
+        console.log(`port is running`)
     } catch (error) {
         console.log(error)
     }
